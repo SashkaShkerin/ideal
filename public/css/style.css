@@ -1,0 +1,71 @@
+
+:root{
+  --brand-color: #83CCD3;
+}
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #D6DFE8;
+  font-family: Montserrat;
+}
+
+img{
+	display: block;
+}
+
+a{
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(0,0,0,1);
+}
+
+
+.title {
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+.title-mb{
+  margin-bottom: 40px;
+}
+
+.title-m {
+  font-size: 33px;
+}
+
+.block-space{
+  margin-bottom: 180px;
+}
+
+.block-opacity {
+  background-color: rgba(255,255,255,.59)
+}
+
+.brand-button {
+  background-color: var(--brand-color);
+  color: #fff;
+  padding: 15px 60px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+
+.fs-36{
+  font-size: 36px;
+}
